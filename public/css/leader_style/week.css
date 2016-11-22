@@ -1,0 +1,154 @@
+body, html{
+    
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#weekContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+#weekContainer form{
+    
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 35px;
+    background-color: #0375B4;
+    border:3px solid white;
+    border-radius: 4px;
+    position: relative;
+    bottom: 500px;
+    z-index: 2;
+    
+}
+
+#close{
+    
+    width: 50px;
+    height: 50px;
+    background-color: #0375B4;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-bottom: -35px;
+    position: relative;
+    bottom: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+#close:hover{
+    
+    background-color: white;
+    color: #0375B4;
+    border: 2px solid #0375B4;
+    
+    
+}
+
+#weekContainer form p{
+    
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    
+}
+
+#weekContainer form input{
+    
+    width: 280px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    padding-left: 15px;
+    color: #0375B4;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+
+#weekContainer form input[type='submit']{
+    
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #0375B4;
+    border: 2px solid white;
+    color: white;
+    padding-bottom: 5px;
+    
+}
+
+#weekContainer form input[type='submit']:hover{
+    
+    background-color: white;
+    color: #0375B4;
+    border: 2px solid #0375B4;
+    
+}
+
+#addWeek{
+    
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.weeks{
+    
+    width: 250px;
+    height: 250px;
+    border: 1px solid green;
+    
+    
+}
+
+#addWeek button{
+    
+    width: 150px;
+    height: 150px;
+   /* margin-right: 200px;*/
+    /*margin-bottom: -200px;*/
+    position: relative;
+    /*bottom: 330px;
+    left: 100px;*/
+    border: 2px solid #0375B4;
+    border-radius: 4px;
+    background-color: #0375B4;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#addWeek button:hover{
+    
+    /*transition: height 1.0s linear 0s;
+    height: 130px;
+    transition: width 1.0s linear 0s;
+    width: 130px;*/
+    background-color: white;
+    border: 2px solid #0375B4;
+    color: #0375B4;
+    
+    
+}
+
+
+
+

@@ -1,0 +1,105 @@
+#user_info{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ecf0f1;
+    margin-top: -10px;
+
+
+}
+
+#user_info h1{
+
+    text-align: left;
+    color: crimson;
+    position: relative;
+    top: 50px;
+    right: 310px;
+}
+
+
+#avatar{
+
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 130px;
+
+}
+
+#avatar img{
+
+    width: 150px;
+    height: 150px;
+    background-color: black;
+
+
+}
+
+#avatar h3{
+
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+#slogan{
+
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   position: relative;
+
+}
+
+#slogan p{
+
+    width: 400px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 10px;
+
+}
+
+#para-mail{
+
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 300px;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+
+}
+
+#mail{
+
+    border: 2px solid red;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 10px;
+}
+
+#parameter{
+
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}

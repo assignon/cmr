@@ -1,0 +1,95 @@
+html, body{
+
+   padding: 0px;
+    margin: 0px;
+
+}
+
+@font-face{
+
+  font-family: "Amazing Infographic@free";
+  src:url('Amazing Infographic@free.otf') format('embedded-opentype');
+
+}
+
+@font-face{
+
+  font-family: "Borg";
+  src:url('Borg.ttf') format('embedded-opentype');
+
+}
+
+@font-face{
+
+  font-family: "TypoGraphica";
+  src:url('TypoGraphica.otf') format('embedded-opentype');
+
+}
+
+
+
+#cellOutline{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+    padding-top: 170px;
+}
+
+.cellManager{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    margin-bottom: 50px;
+   /* margin-left: 85px;*/
+    position: relative;
+    left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+.cellManager:nth-child(5), .cellManager:nth-child(6), .cellManager:nth-child(7){
+
+
+    left: 250px;
+}
+
+.cellManager:hover{
+
+    /*border: 1px solid grey;*/
+    background-color: whitesmoke;
+}
+
+.cellManager a{
+
+    width: auto;
+    height: auto;
+   text-align: center;
+
+
+}
+
+.cellManager a img{
+
+    width: 180px;
+    height: 180px;
+
+
+}
+
+.cellManager p{
+
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+
+}
